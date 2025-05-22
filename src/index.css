@@ -19,8 +19,11 @@ body {
 }
 
 .logo {
-  width: 120px;
-  margin-bottom: 1rem;
+  width: 160px; /* Increased from 120px */
+  margin-bottom: 1.5rem;
+}
+.logo.react {
+  filter: drop-shadow(0 0 2em #61dafb);
 }
 
 .hero {
@@ -52,7 +55,7 @@ h2 {
 }
 
 ul {
-  list-style-type: '✔️ ';
+  list-style-type: '';
   padding-left: 1.5rem;
 }
 
@@ -61,4 +64,9 @@ footer {
   font-size: 0.85rem;
   color: #888;
   margin-top: 4rem;
+}
+.section-alt {
+  background-color: #f5f8ff;
+  padding: 2rem;
+  border-radius: 8px;
 }
